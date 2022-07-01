@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  # name of the service
+  node:
+    build:
+      # context is same as path
+      context: .
+      dockerFile: Dockerfile
+    # this is the outputName of the running container
+    container_name: web
+    # map ports: [portOutside]:[portInside]
+    ports:
+      - 5000:3000
