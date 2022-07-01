@@ -1,6 +1,18 @@
 # Docker
 
-## walkthrough
+## Commands
+
+## simple Commands via `docker-compose`
+
+- to start
+  - `docker-compose up -d`
+- upon running...
+  - repository name: `docker101_node`
+  - container instance name: `web`
+- to stop
+  - `docker-compose down`
+
+## original commands
 
 make a Dockerfile
 

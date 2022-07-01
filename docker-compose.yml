@@ -1,12 +1,12 @@
 version: "2"
 
 services:
-  # name of the service
+  # name of the service, new image will be [oldImageName]_[thisName]... or docker101_node
   node:
     build:
       # context is same as path
       context: .
-      dockerFile: Dockerfile
+      dockerfile: Dockerfile
     # this is the outputName of the running container
     container_name: web
     # map ports: [portOutside]:[portInside]
