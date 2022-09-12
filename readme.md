@@ -17,6 +17,8 @@
 make a Dockerfile
 
 - nice video [here](https://www.youtube.com/watch?v=edPrPcgjTgw)
+- dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image
+- to run an existing docker file named Dockerfile in the current `.`... command is: `docker build .`
 
 check existing images: `docker images`
 
